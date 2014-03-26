@@ -1,0 +1,79 @@
+/* ----- BADGER DISPLAY ---- */
+
+
+
+img#single-badger {
+	display: none;
+}
+
+img#single-badger-clear {
+	opacity: 0.5;
+	padding-left: 2em;
+	padding-right: 4em;
+}
+
+img#double-badger {
+	display: none;
+}
+
+img#quadruple-badger {
+	display: none;
+}
+
+.badger-display .column-half {
+	width: 49%;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.badger-pop {
+	margin-left: 25%;
+}
+
+#badger-text-clear {
+	opacity: 0.5;
+	display: block;
+	text-align: left;
+	padding-top: 50px;
+	font-size: 20px;
+}
+
+.badger-result {
+	display: none;
+	font-size: 22px;
+	text-align: center;
+	width: 80%;
+}
+
+.badger-result-text {
+	display: none;
+	font-size: 18px;
+	width: 80%;
+}
+
+#order-box {
+	margin-right: 35%;
+}
+
+/* ----- STATS ----- */
+
+.columnn-fifth {
+	width: 20%;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 12px;
+	margin-bottom: 30px;
+	border-top: 1px solid #34495e;
+	border-bottom: 1px solid #34495e;
+}
+
+.columnn-fifth .counter {
+	font-size: 36px;
+}
+
+.stats-text {
+	text-align: center;
+}

@@ -1,0 +1,38 @@
+/* ----- QUOTES ----- */
+
+.column-third p{
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+}
+
+/* ----- FOOTER ----- */
+footer {
+	width: 100%;
+}
+
+footer .column-half {
+	float: left;
+	width: 50%;
+	padding: 20px;
+	line-height: 0.5;
+	height: 110px;
+	box-sizing: border-box;
+}
+
+#btnRegister {
+	margin-left: 5%;
+	padding: 5px;
+}
+
+#txtName {
+	margin-left: 10%;
+	padding: 4px;
+	width: 30%;
+
+}
+
+#txtEmail {
+	width: 25%;
+	padding: 4px;
+}

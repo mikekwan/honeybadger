@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hire a Honey Badger</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Esteban|Sintony' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+
+		<header>
+			<h1 class="main-title">Hire a Honey Badger</h1>
+
+			<nav class="main-nav">
+				<ul>
+					<li class="bg-orange" id="hamburger"><a href="#"><i class="fa fa-bars fa-lg"></i></a> </li>
+					<li class="mobile-title"><a href="#">Hire a Honey Badger</li>
+					<li class="bg-blue"><a href="index.html">Home</a></li>
+					<li class="bg-red"><a href="about.html">About</a></li>
+					<li class="bg-green"><a href="#services">Services</a></li>
+					
+				</ul>
+			</nav>
+			<nav id="mobileNav">
+           		 <ul>
+             		 <a href="about.html"><li class="active bg-red">About</li></a>
+             		 <a href="#services"><li class="active bg-green">Services</li></a>
+            	</ul>
+          </nav>
+		</header>
+<div class="main-content"><!--main content -->
+			
+			<div class="feature-slider">
+
+				<div class="column-half intro-pic">
+						<img class="slide-image" src="img/honeybadger1_243.jpg">
+				</div><!--intro-pic -->
+
+				<div class="column-half intro-text">
+						<p>The honey badger is pretty badass! We're currently in beta launch (invite-only). </p>
+
+						<button id="intro-button" type="button">
+							<div class="status">Beta launch on hold due to badger uprising.</div>
+							<div class="announcement">Please stay tuned for updates</div>
+						</button> 
+						
+				</div><!--intro-text -->
+
+			</div>	<!--feature slider-->
+
+		<section class="badger-mode">
+
+			<div class="badger-buttons-wrap">
+			<h2 id="choose-title">Select Badger!</h2>
+
+			<div class="column-third">
+				<div class="play">
+				<a href="#" onclick="playSound1(); return false;">
+					<audio id="badgersound-1" src="audio/Honeybadger-sound1.mp3"></audio>
+					<img class="badger-button gray-border" id="button1" src="img/button1.jpg">
+				</a>
+				</div>
+			</div>
+
+			<div class="column-third">
+				<div class="play">
+				<a href="#" onclick="playSound2(); return false;">
+					<audio id="badgersound-2" src="audio/Honeybadger-sound2.mp3"></audio>
+					<img class="badger-button gray-border" id="button2" src="img/button2.jpg">
+				</a>
+				</div>
+			</div>
+
+
+			<div class="column-third">
+				<div class="play">
+				<a href="#" onclick="playSound3(); return false;">
+					<audio id="badgersound-3" src="audio/Honeybadger-sound3.mp3"></audio>
+					<img class="badger-button gray-border" id="button3" src="img/button3.jpg">
+				</a>
+				</div>
+			</div>
+		</div><!--badger-buttons-wrap-->
+
+		</section><!--badger-mode-->
+
+
+
+		<section class="badger-display">
+
+			<div class="h2 title"><h2 id="badger-title">&nbsp;</h2></div>
+
+			<div class="column-half">
+
+				<div class="badger-pop">
+					<img align="left" src="img/displaybadger1.jpg" id="single-badger-clear" ></div>
+				
+				<div class="badger-pop2">
+					<img align="left" src="img/displaybadger1.jpg" id="single-badger" class="badger-new"></div>
+
+				<div class="badger-pop2" id="double-badger">
+					<img align="left" src="img/displaybadger2.jpg" id="double-badger" class="badger-new"></div>
+
+				<div class="badger-pop2" id="quadruple-badger">
+					<img align="left"  src="img/displaybadger4.jpg" id="quadruple-badger" class="badger-new"></div>
+
+			</div><!--column-half-->
+
+			<div class="column-half">
+
+
+					<p id="badger-text-clear">
+					 Select a badger above  &nbsp; <i class="fa fa-hand-o-up fa-lg"></i> 
+					</p>
+
+					<h2 id="badger-result1" class="badger-result">You chose Solo!</h2>
+					<p id="badger-text1" class="badger-result-text">
+					This badger don't care. No matter the danger, you can count on this badger to smack its enemies down. Best choice for stealth missions that rely on the cover of darkness.
+
+					<div class="order-box">
+					<button id="order-button1" type="button">
+							<div class="ordernow">Order now</div>
+							<div class="order-status">All orders cancelled</div> 
+					</button>
+					</div>
+					</p>
+					
+					<h2 id="badger-result2" class="badger-result">You chose Tag Team!</h2>
+					<p id="badger-text2" class="badger-result-text">
+					These badgers don't care - squared. These badgers will team up to overcome any obstacle thrown at them. Our most efficient combination.
+
+					<div class="order-box">
+					<button id="order-button2" type="button">
+							<div class="ordernow">Order now</div>
+							<div class="order-status">All orders cancelled</div> 
+					</button>
+					</div>
+					</p>
+
+					<h2 id="badger-result3" class="badger-result">You chose Pack!</h2>
+					<p id="badger-text3" class="badger-result-text">
+					Recommended only for heavy-duty tasks. Unleash the badger pack to face enemy hordes and the most challenging of enemies. Prepare to unleash the chaos.
+
+					<div class="order-box">
+					<button id="order-button3" type="button">
+							<div class="ordernow">Order now</div>
+							<div class="order-status">All orders cancelled</div> 
+					</button>
+					</div>
+					</p>
+
+			</div><!---column-half-->
+
+		</section><!--badger-display-->
+
+
+	
+		<section class="stats">
+
+			<div class="columnn-fifth">
+				<div class="counter" id="maulings-counter"></div>
+				<p class="stats-text2">Maulings</p>
+			</div>
+
+			<div class="columnn-fifth">
+				<div class="counter" id="goods-counter"></div>
+				<p class="stats-text2">Goods Taken</p>
+			</div>
+
+			<div class="columnn-fifth">
+				<div class="counter" id="honey-counter"></div>
+				<p class="stats-text">Honey Eaten (lbs)</p>
+			</div>
+
+			<div class="columnn-fifth">
+				<div class="counter" id="snakes-counter"></div>
+				<p class="stats-text">Snakes in Trees</p>
+			</div>
+
+			<div class="columnn-fifth">
+				<div class="counter" id="babies-counter"></div>
+				<p class="stats-text">Babies Saved</p>
+			</div>
+				
+
+		</section><!--Stats-->
+
+
+		<section class="services" id="services"> 
+
+				<h2 id="services-title">
+				Services				
+				</h2>
+
+				<div class="column-quarter" id="column-quarter"><!--Cobras-->
+					<img title="Cobras" src="img/cobra257x253.jpg" style="max-width: 60%" class="special-img">
+					<h2 class="services-h2">Cobras</h2>
+					<p id="cobras">Cobras are the badgers' staple. Whether they're slithering around or in a tree, they're as good as dinner.</p>
+				</div>
+				<div class="column-quarter id="column-quarter""><!--Thieves-->
+					<img title="Thieves" src="img/thief257x252.jpg"
+					style="max-width: 60%" class="special-img"> 
+					<h2 class="services-h2">Thieves</h2>
+					<p>Thieves stand no chance. One whiff at it's stink attack, and its game over for any thieves trying to get past.</p>
+				</div>
+				<div class="column-quarter" id="column-quarter"><!--Bullies-->
+					<img title="Bullies" src="img/bully257x252.jpg"style="max-width: 60%" class="special-img">
+					<h2 class="services-h2">Bullies</h2>
+					<p>Bullies making your life miserable? Confront them with a badger and they'll never come close again!</p>
+				</div>
+				<div class="column-quarter" id="column-quarter"><!--Rats-->
+					<img title="Rats" src="img/rat257x252.jpg" style="max-width: 60%" class="special-img">
+					<h2 class="services-h2">Rats</h2>
+					<p>Rat problem? Don't worry about this small rodent, the honey badger will enjoy making this a quick meal.</p>
+				</div>
+
+			<div class="more">
+
+			<div id="button-more-box">
+			<button id="button-more" type="button">See more &nbsp; &nbsp; <i class="fa fa-sort"></i></button> 
+			</div>
+
+			</div><!--more-->
+	
+	</section><!--services-->		
+
+			<section class="services2" id="services2">
+
+				<div class="column-quarter"><!--Zombies-->
+					<img title="Zombies" src="img/zombie257x252.jpg" style="max-width: 60%" class="special-img">
+					<h2 class="services-h2">Zombies</h2>
+					<p>Fight a zombie apocalypse with a badger. Not even the undead are safe from the badger's appetite!</p>
+				</div>
+				<div class="column-quarter"><!--Lions-->
+					<img title="Lions" src="img/lion257x252.jpg"
+					style="max-width: 60%" class="special-img">
+					<h2 class="services-h2">Lions</h2>
+					<p>Lion on the loose? Throw a pack of badgers to show 'em who's boss. See the true king of the jungle!</p>
+				</div>
+				<div class="column-quarter"><!--Bears-->
+					<img title="Bears" src="img/bear257x252.jpg" style="max-width: 60%" class="special-img">
+					<h2 class="services-h2">Bear</h2>
+					<p>Bear on your campsite? Hire a badger to scare 'em away. If there's honey in the area, watch out!</p>
+				</div>
+				<div class="column-quarter"><!--Babies-->
+					<img title="Babies" src="img/baby257x252.jpg" style="max-width: 60%" class="special-img">
+					<h2 class="services-h2">Babies</h2>
+					<p>Honey badgers just love babies. Enlist the badger to guard your little one from all threats when away.</p>
+				</div>
+
+			</section><!--services 2-->
+
+			<section class="quotes">
+
+				<div class="all-quotes">
+					<div class="column-third">
+					<p>"MY hero! - Giraffe</p>
+					<p>"AaaaaaGGHH!" - Fox</p>
+					</div>
+
+					<div class="column-third">
+					<p >"Pretty badass" - Donkey</p>
+					<p>"Can't compete" - Chuck Norris</p>
+					</div>
+
+					<div class="column-third">
+					<p>"Dude's kinda wacko" - Lion</p>
+					<p>"Watch your back..." - Rhino</p>
+					</div>
+				</div>
+
+			</section><!--quotes-->
+
+</div class="main-content">
+
+			<footer class="clearfix">
+
+				<div class="column-half column-terms bg-orange">
+				<h3 align="left">Design by Mike Kwan</h3>
+				<a href="http://www.linkedin.com/in/michaelrkwan/"><i class="fa fa-linkedin-square fa-2x" ></i>
+				</a> &nbsp; &nbsp; 
+				<a href="https://twitter.com/mikekwan"><i class="fa fa-twitter fa-2x"></i></a>
+				</div>
+
+				<div class="column-half column-registration bg-blue">
+					<h3 align="right"><a href="mailto:mikerkwan@gmail.com">E-mail me</a></h3>
+					
+				</div>	
+
+			</footer>
+				
+	<!--main content-->	
+		
+	</body>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/index2.js"></script>
+	<script src="js/tooltipsy.min.js"></script>
+
+</html>
