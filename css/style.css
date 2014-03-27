@@ -245,15 +245,15 @@ header {
 }
 
 #button1 {
-	margin-left: 68%;
+	margin-left: 75%;
 }
 
 #button2 {
-	margin-left: 35%;
+	margin-left: 42%;
 }
 
 #button3 {
-	margin-left: 2%;
+	margin-left: 9%;
 
 }
 
@@ -584,6 +584,19 @@ html[xmlns] .clearfix {
 
 	.feature-slider {
 	height: 180px;
+	}
+
+	#button1 {
+	margin-left: 70%;
+	}
+
+	#button2 {
+	margin-left: 37%;
+	}
+
+	#button3 {
+	margin-left: 4%;
+
 	}
 
 	.badger-result-text {
