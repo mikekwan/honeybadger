@@ -3,24 +3,25 @@
 	<head>
 		<title>Hire a Honey Badger</title>
 		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/jquery.fancybox-buttons.css">
-		<link rel="stylesheet" href="css/jquery.fancybox.css">
-
 		<link rel="stylesheet" href="css/normalize.css">
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya|IM+Fell+Great+Primer+SC' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/jquery.fancybox.css" media="screen">
+		<link rel="stylesheet" href="css/style.css">
+
+
+
+
 	</head>
 
 	<body>
-		<div class="container">
 
 		<header>
 			<h1 class="main-title">Hire a Honey Badger</h1>
 
 			<nav class="main-nav">
 				<ul>
-					<li class="bg-purple2" id="hamburger"><a href="#"><i class="fa fa-bars fa-2x"></i></a></li> 
+					<li class="bg-purple" id="hamburger"><a href="#"><i class="fa fa-bars fa-2x"></i></a></li> 
 					<li class="mobile-title">Hire a Honey Badger</li>
 					<!-- <li class="mobile-logo"><img src="img/displaybadger1.jpg"></li> -->
 					<li class="bg-purple"><a href="index.html">Home</a></li>
@@ -50,11 +51,9 @@
 
 					<div id="wrapper"><a class="modalbox" href="#inline">
 					<button id="intro-button" type="button" class="bg-orange">
-					<!-- <div class="announcement">Beta launch open</div> -->
-					<div class="status">I want a badger</div>
+					<div class="announcement">Beta launch on hold due to badger uprising</div>
+					<div class="status">Sign up today</div>
 					</button> 
-
-
 				</a></div><!--close wrapper-->
 						
 				</div><!--intro-text -->
@@ -67,10 +66,7 @@
 
 <div id="inline">
 <h3>Send us a Message</h3>
-
-<form id="contact" action="contactforms/send_gm.php" method="post" name="contact" action="verify.php">
-	
-  
+<form id="contact" action="contactforms/send_gm.php" method="post" name="contact">
 	<label for="name"></label>
 	<input id="name" class="txt" name="name" placeholder="Your Name" />
 
@@ -78,7 +74,7 @@
 	<input id="email" class="txt" name="email" placeholder="E-mail" />
 
 	<label for="msg"></label>
-	<textarea id="msg" class="txtarea" name="msg" placeholder="Tell us why you want a honeybadger for your chance to receive an invite to our Super Awesome Badger Launch Party! "></textarea>
+	<textarea id="msg" class="txtarea" name="msg" placeholder="Why do you need a badger?"></textarea>
 
 	<button id="send">E-mail</button></form>
 
@@ -228,7 +224,7 @@
 				<div class="column-quarter" id="column-quarter"><!--Bullies-->
 					<img title="Bullies" src="img/bully257x252.jpg"style="max-width: 60%" class="special-img">
 					<h3 class="services-h3">Bullies</h3>
-					<p>Bullies annoying you? Confront them with a badger and they won't come close!</p>
+					<p>Bullies annoying you? Confront them with a badger and they'll never come close again!</p>
 				</div>
 				<div class="column-quarter" id="column-quarter"><!--Rats-->
 					<img title="Rats" src="img/rat257x252.jpg" style="max-width: 60%" class="special-img">
@@ -261,7 +257,7 @@
 				</div>
 				<div class="column-quarter"><!--Bears-->
 					<img title="Bears" src="img/bear257x252.jpg" style="max-width: 60%" class="special-img">
-					<h3 class="services-h3">Bears</h3>
+					<h3 class="services-h3">Bear</h3>
 					<p>Bear lurking around? Hire a badger tag-team. If there's honey in the area, watch out!</p>
 				</div>
 				<div class="column-quarter"><!--Babies-->
@@ -295,18 +291,9 @@
 					</div>
 				</div>
 
-			<!-- social 
-			<span class='st_facebook_hcount' displayText='Facebook'></span>
-			<span class='st_twitter_hcount' displayText='Tweet'></span> -->
-			
-
 			</section><!--quotes-->
 
-			
-
 </div class="main-content">
-
-</div> <!--container -->
 
 			<footer>
 
@@ -347,13 +334,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="fancybox/jquery.fancybox.js" media="screen"></script>
 	<script src="fancybox/jquery.fancybox.pack.js" media="screen"></script>
-	<script src="fancybox/jquery.fancybox-buttons.js" media="screen"></script>
-
-	<!-- social 
-	<script type="text/javascript">var switchTo5x=true;</script>
-	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-	<script type="text/javascript">stLight.options({publisher: "2ec7e9cf-c9ab-4801-8bcf-496caa56e52b", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-	-->
 	
 
 </html>

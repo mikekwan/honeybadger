@@ -2,19 +2,12 @@
 <html>
 	<head>
 		<title>Hire a Honey Badger</title>
-		<meta charset="utf-8">
+		<meta charset="utf-8" name="viewport" content="width=320">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Esteban|Sintony' rel='stylesheet' type='text/css'>
-		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css" rel="stylesheet" />
-		<!--
-		 <script type="text/javascript">
-			$(function () {
-			$("a.youtube").youtubepopup({ autoplay: 0 });
-			});
-    	</script>
-    -->
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya|IM+Fell+Great+Primer+SC' rel='stylesheet' type='text/css'>
+
 	</head>
 
 	<body>
@@ -24,18 +17,18 @@
 
 			<nav class="main-nav">
 				<ul>
-					<li class="bg-orange" id="hamburger"><a href="#"><i class="fa fa-bars fa-lg"></i></a> </li>
-					<li class="mobile-title"><a href="#">Hire a Honey Badger</li>
-					<li class="bg-blue"><a href="index.html">Home</a></li>
-					<li class="bg-red"><a href="about.html">About</a></li>
-					<li class="bg-green"><a href="index.html#services">Services</a></li>
+					<li class="bg-purple2" id="hamburger"><a href="#"><i class="fa fa-bars fa-2x"></i></a></li>
+					<li class="mobile-title">Hire a Honey Badger</li>
+					<li class="bg-purple"><a href="index.html">Home</a></li>
+					<li class="bg-brown"><a href="about.html">About</a></li>
+					<li class="bg-green"><a href="index.html#services-title">Services</a></li>
 					
 				</ul>
 			</nav>
 			<nav id="mobileNav">
            		 <ul>
-             		 <a href="index.html"> <li class="active bg-blue">Home</li></a>
-             		 <a href="#services"><li class="active bg-green">
+             		 <a href="index.html"> <li class="active bg-green">Home</li></a>
+             		 <a href="index.html#services-title"><li class="active bg-brown">
              		 	Services</li></a>
             	</ul>
           </nav>
@@ -43,38 +36,51 @@
 
 			<div class="about-section">
 
-				<p>What's <em>Hire a Honey Badger</em>?</p><p>You can now recruit the crazy, ferocious honey badger for your everyday needs. From fighting cobras to protecting your little one, you can count on the badger.</p>
+				<p>You can now recruit the crazy, ferocious honey badger for your everyday needs. From fighting cobras to protecting your little one, you can count on the badger.</p>
 				
 				<p>According to the Guiness Book of World Records, the honey badger (a.k.a the ratel) is the world's most fearless animal!</p>
-				
-				<p>Don't believe us? Watch this famous short <a id="youtube" href="http://www.youtube.com/watch?v=4r7wHMg5Yjg">video</a> below, then read more about our <a href="index.html#services">services</a>.</p> 
-<!--
-				<button class="youtube" rel="4eYSpIz2FjU" title="jQuery YouTube Popup Player Plugin TEST">Test Me</button> -->
+
+				<p>Don't believe us? The fearlessness of the honey badger is well-documented on <a href="https://www.youtube.com/results?search_query=honey+badger">YouTube</a>. Below you can view a segment of the new honey badger documentary, "Masters of Mayhem". Afterwards, read more about hireahoneybadger.com's <a href="index.html#services">services</a>.</p>
+
+				<iframe width="560" height="315" src="//www.youtube.com/embed/c36UNSoJenI" frameborder="0" allowfullscreen></iframe>
 
 			</div>
 
 
-		<footer class="clearfix">
+		<footer>
 
-				<div class="column-half column-terms bg-orange">
+				<div class="column-half column-terms bg-brown">
 				<h3 align="left">Design by Mike Kwan</h3>
 				<a href="http://www.linkedin.com/in/michaelrkwan/"><i class="fa fa-linkedin-square fa-2x" ></i>
 				</a> &nbsp; &nbsp; 
 				<a href="https://twitter.com/mikekwan"><i class="fa fa-twitter fa-2x"></i></a>
 				</div>
 
-				<div class="column-half column-registration bg-blue">
-					<h3 align="right"><a href="mailto:mikerkwan@gmail.com">E-mail me</a></h3>
-				</div>	
-
-		</footer>
+				<div class="column-half column-registration bg-green">
+					<h3 align="right"><a href="mailto:management@hireahoneybadger.com">Contact Our Team</a></h3>
+					<h3 align="right"><a href="credits.html">Photo Credits</a>
+					
+				</div>
+			</footer>
 	</body>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/index.js"></script>
 	<!--
-	<script type="text/javascript" src="jquery.youtubepopup.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	-->
+	<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-49839500-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 
 </html>
